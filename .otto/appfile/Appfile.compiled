@@ -1,0 +1,67 @@
+{
+    "File": {
+        "ID": "2f6a824d-cd61-176f-4a44-82487f187d14",
+        "Path": "/Users/assaulter/Developer/ruby/OttoSample/ottoSample/Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "ottoSample",
+            "Type": "ruby",
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "ottoSample",
+            "Infrastructure": "ottoSample"
+        },
+        "Infrastructure": [
+            {
+                "Name": "ottoSample",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": null,
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "2f6a824d-cd61-176f-4a44-82487f187d14",
+                "Path": "/Users/assaulter/Developer/ruby/OttoSample/ottoSample/Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "ottoSample",
+                    "Type": "ruby",
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "ottoSample",
+                    "Infrastructure": "ottoSample"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "ottoSample",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": null,
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "ottoSample"
+        }
+    ],
+    "Edges": []
+}
