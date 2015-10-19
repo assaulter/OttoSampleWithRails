@@ -106,3 +106,31 @@ $ otto compile
 └── data
     └── dev_ip
 ```
+
+# Vagrant環境を作成する
+
+```
+$ otto dev
+```
+
+otto compileでvagrant用のファイルとか出来てるので、それが適用されたvagrant環境を作ります。
+ローカルにVirtualBoxとVagrant入ってなくても勝手に入れてくれるっぽい。
+
+そんなこんなで完成
+
+```
+==> Development environment successfully created!
+    IP address: 172.16.1.253
+
+    A development environment has been created for writing a generic
+    Ruby-based app.
+
+    Ruby is pre-installed. To work on your project, edit files locally on your
+    own machine. The file changes will be synced to the development environment.
+
+    When you're ready to build your project, run 'otto dev ssh' to enter
+    the development environment. You'll be placed directly into the working
+    directory where you can run 'bundle' and 'ruby' as you normally would.
+
+    You can access any running web application using the IP above.
+```
