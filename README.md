@@ -21,7 +21,8 @@ $ be rake db:migrate
 
 # Otto導入
 
-公式からバイナリ落としてきてPATHを通しておく
+[公式](https://hashicorp.com/blog/otto.html)
+からバイナリ落としてきてPATHを通しておく
 
 ```
 $ otto -v
@@ -31,7 +32,7 @@ Otto v0.1.1
 # Otto compileする
 
 ```
-$ otto compilen
+$ otto compile
 ```
 
 するとこんなのが生成される
