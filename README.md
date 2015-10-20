@@ -134,3 +134,14 @@ otto compileでvagrant用のファイルとか出来てるので、それが適�
 
     You can access any running web application using the IP above.
 ```
+
+# rails起動アンドアクセス
+
+```
+$ bundle install
+$ bundle exec rake db:migrate
+$ bundle exec rails s -b 0.0.0.0
+```
+otto dev addressしたやつにアクセスすると繋がる。
+
+超シンプルなRailsアプリとかならいけそうな気がした。
