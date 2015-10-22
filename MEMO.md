@@ -211,3 +211,18 @@ DISTRIB_RELEASE=12.04
 DISTRIB_CODENAME=precise
 DISTRIB_DESCRIPTION="Ubuntu 12.04 LTS"
 ```
+
+## ちょいカスタマイズ
+
+Appfileをプロジェクト直下に置くとそっちを見てくれる。
+
+```
+[OttoSampleWithRails] cat Appfile
+customization "ruby" {
+  ruby_version = "2.1"
+}
+```
+
+otto compile → otto dev でいけるかと思ったけど、一旦otto dev vagrant destroy しないとインストールが走らなかった。
+
+ちなみにotto dev vagrant "以降vagrant向けコマンド" でvagrantコマンドが使える。
